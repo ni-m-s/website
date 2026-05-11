@@ -23,14 +23,8 @@
       font-family: 'EB Garamond', Georgia, serif;
       font-size: 1.125rem;
       line-height: 1.8;
-      margin: 0;
-      padding: 0;
-    }
-
-    .wrap {
       max-width: 640px;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0 auto;
       padding: 5rem 2rem 7rem;
     }
 
@@ -154,37 +148,34 @@
   </style>
 </head>
 <body>
-<div class="wrap">
 
   <h1>Nicolás Medina Sánchez</h1>
 
-<div style="display:flex; align-items:flex-start; justify-content:space-between; gap:2rem; margin-bottom:2.2rem;">
-  <div class="epigraph" style="margin-bottom:0;">
+  <div class="epigraph">
     <p>Toute séparation est un lien.</p>
     <cite>Simone Weil, <em>La pesanteur et la grâce</em></cite>
   </div>
-  <img src="foto.jpeg" alt="Nicolás Medina Sánchez"
-       style="width:100px; height:100px; object-fit:cover; border-radius:50%; flex-shrink:0;">
-</div>
 
-   <p class="body-text">
-    I work on axiomatic reconstructions of physical theories from somehow meaningful
-    principles. Most of this has gone into quantum theory, spacetime, and the collective
-    behaviour of individual systems. At some point I also spent time with nonlinear dynamics and chaos in driven crystals,
-    and with contextuality in its categorical formulation, asking how contexts contain and overlap each other, cohomologically speaking...
+  <p class="body-text">
+    I am a physicist and mathematician working on the operational and axiomatic
+    reconstruction of physical theories. My research concerns the structural foundations
+    of quantum theory, spacetime physics, statistical mechanics, and the quantum-to-classical
+    transition, as well as chaos and nonlinear dynamics.
   </p>
 
   <p class="body-text">
-    Interested mainly in combinatorics and topology. Though I have indulged myself into
-	    topos theory, Hopf algebra representations, Manin's quantum linear spaces (AKA quadratic spaces), different flavours of logic, 
-		and the back-and-forth between metric and measure structures,
-    among other things.
+    My approach draws on category theory, topos theory, categorical logic, differential geometry,
+    topology, functional analysis, operator algebras, combinatorics, and probability theory.
+    The underlying aim is to understand how spacetime, quantum phenomena, and statistical
+    structures emerge from operationally meaningful principles and invariant relational data.
   </p>
 
   <p class="body-text">
-    My favourite topics are phenomenology, cybernetics, dissipative structures, propensism, anticipatory systems and gothic materialism.
+    Philosophically, my work sits at the intersection of phenomenology, cybernetics,
+    and propensity-based interpretations of probability. I take physical theory to be
+    a structure of operations, constraints, and invariant relations rather than a
+    representation of underlying substances.
   </p>
-
 
   <section>
     <h2>Publications</h2>
@@ -221,25 +212,33 @@
       <span class="talk-year">2026</span>
       <div class="talk-body">
         <span>Observers and Causality in Quantum Gravity</span><br>
-        <span class="talk-where">RCQI, Bratislava</span>
-        <span class="talk-title"> · Operational reconstruction of spacetime: Causality and Observability</span>
+        <span class="talk-where">Bratislava</span>
+        <span class="talk-title"> · Operational reconstruction of spacetime</span>
       </div>
     </div>
 
     <div class="talk">
       <span class="talk-year">2025</span>
       <div class="talk-body">
-        <span>100 Years of Quantum: Perspectives on its Past, Present, and Future</span><br>
-        <span class="talk-where">Perimeter Institute, Waterloo</span>
-        <span class="talk-title"> · Geometric reconstruction of quantum theory: Projectivity and Unitarity</span>
+        <span>Perimeter Institute</span><br>
+        <span class="talk-where">Waterloo</span>
+        <span class="talk-title"> · Geometric reconstruction of quantum theory</span>
       </div>
     </div>
 
+    <div class="talk">
+      <span class="talk-year">2024</span>
+      <div class="talk-body">
+        <span>Foundations of Quantum Physics beyond Bell</span><br>
+        <span class="talk-where">Les Diablerets</span>
+        <span class="talk-title"> · Locality and quantum particle statistics</span>
+      </div>
+    </div>
 
     <div class="talk">
       <span class="talk-year">2023</span>
       <div class="talk-body">
-        <span>Quantum Information, Quantum Matter and Quantum Gravity</span><br>
+        <span>YIPQS Workshop: Quantum Information, Quantum Matter and Quantum Gravity</span><br>
         <span class="talk-where">Yukawa Institute, Kyoto</span>
         <span class="talk-title"> · Information-theoretic reconstruction of quantum particle statistics</span>
       </div>
@@ -249,7 +248,7 @@
       <span class="talk-year">2023</span>
       <div class="talk-body">
         <span>Quantum Physics and Logic</span><br>
-        <span class="talk-where">Institut Henri Poincare, Paris</span>
+        <span class="talk-where">Paris</span>
         <span class="talk-title"> · Relational clocks using monads</span>
       </div>
     </div>
@@ -258,7 +257,7 @@
       <span class="talk-year">2023</span>
       <div class="talk-body">
         <span>Functional Analysis and Quantum Information</span><br>
-        <span class="talk-where">Universidad Complutense, Madrid</span>
+        <span class="talk-where">Madrid</span>
         <span class="talk-title"> · Lie algebras of operator-valued random variables</span>
       </div>
     </div>
@@ -267,7 +266,7 @@
       <span class="talk-year">2022</span>
       <div class="talk-body">
         <span>Time in Quantum Theory</span><br>
-        <span class="talk-where">TU Wien, Vienna</span>
+        <span class="talk-where">Vienna</span>
         <span class="talk-title"> · An intuitionistic logic for causal structures</span>
       </div>
     </div>
@@ -275,8 +274,8 @@
     <div class="talk">
       <span class="talk-year">2016</span>
       <div class="talk-body">
-        <span>Quantum Chaos and Control</span><br>
-        <span class="talk-where">Universidad de Buenos Aires, Buenos Aires</span>
+        <span>Giambiagi Winter School: Quantum Chaos and Control</span><br>
+        <span class="talk-where">Buenos Aires</span>
         <span class="talk-title"> · Punchets: nonlinear transport in Hamiltonian pump-ratchet hybrids</span>
       </div>
     </div>
@@ -287,6 +286,5 @@
     nicolas.medina.sanchez@univie.ac.at
   </div>
 
-</div>
 </body>
 </html>
